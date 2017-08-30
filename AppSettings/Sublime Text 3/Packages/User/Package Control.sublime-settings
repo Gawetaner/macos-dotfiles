@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base Encoder",
+		"MarkdownEditing",
+		"Package Control",
+		"Pretty JSON",
+		"Theme - amCoder"
+	]
+}
