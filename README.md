@@ -17,7 +17,7 @@ This repository contains several dotfiles and configurations that i want to sync
 
 Clone this repository wherever you want, my prefered place is `~/repos/macos-dotfiles`.
 ```sh
-git clone git@git.forbidden.place:Gawetaner/macos-dotfiles.git
+git clone git@github.com:Gawetaner/-macos-dotfiles.git
 ```
 
 Run the install script
