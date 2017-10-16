@@ -3,7 +3,7 @@
 set -eu
 
 # Check for clean repo status. Prevent macOS from installing the command line utilities, brew will install them without user interaction.
-if ! [ -x "$(command -v git)" ]; then
+if [ -x "$(command -v git)" ]; then
     if [[ -n $(git status --porcelain) ]]; then
         echo "Ensure that your git status is clean and rerun this script." >&2
         exit 1
@@ -12,7 +12,7 @@ fi
 
 # Install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Install tools and apps with brew bundle
