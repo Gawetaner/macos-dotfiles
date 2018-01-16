@@ -115,6 +115,13 @@ defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 # Send “Do Not Track” header
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
+# Disable auto fill for form fields
+defaults write com.apple.Safari AutoFillFromAddressBook -bool false
+defaults write com.apple.Safari AutoFillPasswords -bool false
+defaults write com.apple.Safari AutoFillCreditCardData -bool false
+defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
+
+
 ###############################################################################
 # Desktop and Dock                                                            #
 ###############################################################################
