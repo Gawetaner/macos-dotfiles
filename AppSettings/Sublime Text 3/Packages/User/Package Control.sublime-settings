@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Base Encoder",
-		"MarkdownEditing",
 		"Package Control",
 		"Pretty JSON",
 		"Theme - amCoder"
