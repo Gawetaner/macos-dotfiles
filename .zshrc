@@ -94,3 +94,6 @@ eval "$(rbenv init -)"
 
 # Homebrew
 export PATH="/usr/local/sbin:$PATH"
+
+# Go
+export GOPATH="$HOME/go"
