@@ -22,10 +22,10 @@ brew bundle
 brew cleanup
 brew cask cleanup
 
-# Install ruby 2.4.0 via rbenv and use it globaly
-if [[ $(rbenv global) != "2.4.0" ]]; then
-    rbenv install 2.4.0
-    rbenv global 2.4.0
+# Install ruby 2.5.1 via rbenv and use it globaly
+if [[ $(rbenv global) != "2.5.1" ]]; then
+    rbenv install 2.5.1
+    rbenv global 2.5.1
 fi
 
 # Install various gems
