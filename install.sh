@@ -20,7 +20,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 brew cleanup
-brew cask cleanup
 
 # Install ruby 2.5.1 via rbenv and use it globaly
 if [[ $(rbenv global) != "2.5.1" ]]; then
