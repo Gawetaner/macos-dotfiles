@@ -126,16 +126,7 @@ defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
 ###############################################################################
 
 # Set the desktop background image
-osascript <<'APPLESCRIPT'
-  tell application "System Events"
-    set desktopCount to count of desktops
-    repeat with desktopNumber from 1 to desktopCount
-      tell desktop desktopNumber
-        set picture to "/Library/Desktop Pictures/Solid Colors/Solid Gray Pro Ultra Dark.png"
-      end tell
-    end repeat
-  end tell
-APPLESCRIPT
+osascript -e 'tell application "System Events" to set picture of every desktop to "'"$(pwd)/Assets/Solid Gray Pro Ultra Dark.png"'"'
 
 # Move Dock to the left
 defaults write com.apple.dock orientation -string "left"
