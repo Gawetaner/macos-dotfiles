@@ -143,6 +143,9 @@ defaults write com.apple.dock launchanim -bool false
 # Use translucent icons for hidden apps
 defaults write com.apple.dock showhidden -bool true
 
+# Don't show the recently opened apps
+defaults write com.apple.dock show-recents -bool false
+
 # Only show Mail.app and Downloads in the dock.
 dockutil --no-restart --remove all
 dockutil --no-restart --add "/Applications/Mail.app"
