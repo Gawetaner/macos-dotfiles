@@ -38,9 +38,6 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Avoid creating .DS_Store on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# Use dark mode
-defaults write NSGlobalDomain AppleInterfaceStyle Dark
-
 ###############################################################################
 # iTunes                                                                      #
 ###############################################################################
