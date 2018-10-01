@@ -8,6 +8,8 @@
 		"Base Encoder",
 		"Package Control",
 		"Pretty JSON",
+		"SublimeLinter",
+		"SublimeLinter-shellcheck",
 		"Theme - amCoder"
 	]
 }
