@@ -31,10 +31,16 @@ mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages"
 ln -s "$DIR/AppSettings/Sublime Text 3/Packages/User" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 
 # Xcode
-rm -rf "$HOME/Library/Developer/Xcode/UserData/FontAndColorThemes"
 mkdir -p "$HOME/Library/Developer/Xcode/UserData"
+
+rm -rf "$HOME/Library/Developer/Xcode/UserData/FontAndColorThemes"
 ln -s "$DIR/AppSettings/Xcode/FontAndColorThemes" "$HOME/Library/Developer/Xcode/UserData/FontAndColorThemes"
 
 rm -rf "$HOME/Library/Developer/Xcode/UserData/xcdebugger"
-mkdir -p "$HOME/Library/Developer/Xcode/UserData"
 ln -s "$DIR/AppSettings/Xcode/xcdebugger" "$HOME/Library/Developer/Xcode/UserData/xcdebugger"
+
+rm -rf "$HOME/Library/Developer/Xcode/UserData/CodeSnippets"
+ln -s "$DIR/AppSettings/Xcode/CodeSnippets" "$HOME/Library/Developer/Xcode/UserData/CodeSnippets"
+
+rm -rf "$HOME/Library/Developer/Xcode/UserData/KeyBindings"
+ln -s "$DIR/AppSettings/Xcode/KeyBindings" "$HOME/Library/Developer/Xcode/UserData/KeyBindings"

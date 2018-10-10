@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>setupConstraints</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)setupConstraints
+{
+    [NSLayoutConstraint activateConstraints:@[[self.topAnchor constraintEqualToAnchor:self.safeAreaLayoutGuide.topAnchor],
+                                              [self.leftAnchor constraintEqualToAnchor:self.safeAreaLayoutGuide.leftAnchor],
+                                              [self.bottomAnchor constraintEqualToAnchor:self.safeAreaLayoutGuide.bottomAnchor],
+                                              [self.rightAnchor constraintEqualToAnchor:self.safeAreaLayoutGuide.rightAnchor]]];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B38A584-EC35-4CF9-A87C-7E91059FE993</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A method that setups a view's constraints.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Setup Constraints</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
