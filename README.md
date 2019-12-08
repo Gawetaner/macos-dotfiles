@@ -4,7 +4,7 @@ This repository contains several dotfiles and configurations that i want to sync
 
 ## Requirements
 
-- macOS 10.12 or newer
+- macOS 10.15 or newer
 - Working internet connection during installation.
 
 ## Warnings
@@ -15,9 +15,9 @@ This repository contains several dotfiles and configurations that i want to sync
 
 ## Installation
 
-Clone this repository wherever you want, my prefered place is `~/repos/macos-dotfiles`.
+Clone this repository wherever you want, my prefered location is `~/repos/macos-dotfiles`.
 ```sh
-git clone git@github.com:Gawetaner/-macos-dotfiles.git
+git clone git@github.com:Gawetaner/macos-dotfiles.git
 ```
 
 Run the install script
