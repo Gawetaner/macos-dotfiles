@@ -126,7 +126,7 @@ defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
 osascript -e 'tell application "System Events" to set picture of every desktop to "'"$(pwd)/Assets/Solid Gray Pro Ultra Dark.png"'"'
 
 # Move Dock to the left
-defaults write com.apple.dock orientation -string "left"
+defaults write com.apple.dock orientation -string "bottom"
 
 # Enable auto hide
 defaults write com.apple.dock autohide -bool true
