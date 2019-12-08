@@ -21,10 +21,10 @@ brew tap homebrew/bundle
 brew bundle
 brew cleanup
 
-# Install ruby 2.5.1 via rbenv and use it globaly
-if [[ $(rbenv global) != "2.5.1" ]]; then
-    rbenv install 2.5.1
-    rbenv global 2.5.1
+# Install ruby via rbenv and use it globaly
+if [[ $(rbenv global) != "2.6.5" ]]; then
+    rbenv install 2.6.5
+    rbenv global 2.6.5
 fi
 
 # Install various gems
