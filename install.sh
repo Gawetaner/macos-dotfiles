@@ -34,12 +34,6 @@ fi
 # Install Oh My Zsh
 if ! [ -e "$HOME/.oh-my-zsh" ]; then
     git clone git://github.com/robbyrussell/oh-my-zsh.git "$HOME/.oh-my-zsh"
-
-    # Add the zsh from brew to the list of approved shells, otherwise 'chsh' complains about a non standard shell
-    echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-
-    # Change the login shell to zsh from brew
-    chsh -s "/usr/local/bin/zsh"
 fi
 
 # Create and update symlinks
