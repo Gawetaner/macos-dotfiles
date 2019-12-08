@@ -1,6 +1,3 @@
-# Taps
-tap 'caskroom/cask'
-
 # Tools
 brew 'coreutils'
 brew 'dockutil'
