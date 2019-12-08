@@ -28,7 +28,7 @@ if [[ $(rbenv global) != "2.6.5" ]]; then
 fi
 
 # Install various gems
-~/.rbenv/shims/gem install cocoapods fastlane --no-rdoc --no-ri
+~/.rbenv/shims/gem install cocoapods fastlane --no-document
 ~/.rbenv/shims/gem cleanup
 
 # Install Oh My Zsh

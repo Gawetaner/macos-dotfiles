@@ -1,2 +1,2 @@
 # Install gems without docs, saves much time
-gem: --no-ri --no-rdoc
+gem: --no-document
