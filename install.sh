@@ -22,9 +22,9 @@ brew bundle
 brew cleanup
 
 # Install ruby via rbenv and use it globaly
-if [[ $(rbenv global) != "2.6.5" ]]; then
-    rbenv install 2.6.5
-    rbenv global 2.6.5
+if [[ $(rbenv global) != "2.7.2" ]]; then
+    rbenv install 2.7.2
+    rbenv global 2.7.2
 fi
 
 # Install various gems
