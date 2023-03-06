@@ -13,6 +13,7 @@ ln -sf "$DIR/.zshrc" "$HOME/.zshrc"
 ln -sf "$DIR/.gemrc" "$HOME/.gemrc"
 ln -sf "$DIR/.gitconfig" "$HOME/.gitconfig"
 ln -sf "$DIR/.gitignore_global" "$HOME/.gitignore_global"
+ln -sf "$DIR/.git_message.txt" "$HOME/.git_message.txt"
 
 ###############################################################################
 # Symlink bin folder.                                                         #
