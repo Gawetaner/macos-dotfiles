@@ -18,6 +18,7 @@ brew 'tig'
 brew 'tree'
 brew 'wget'
 brew 'zsh'
+brew 'zsh-syntax-highlighting'
 
 # Apps
 cask '1password'
